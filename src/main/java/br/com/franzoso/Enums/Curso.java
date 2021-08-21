@@ -1,4 +1,4 @@
-package br.com.academy.Enums;
+package br.com.franzoso.Enums;
 
 public enum Curso {
 

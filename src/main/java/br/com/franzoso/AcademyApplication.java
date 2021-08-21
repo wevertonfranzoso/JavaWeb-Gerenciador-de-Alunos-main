@@ -1,4 +1,4 @@
-package br.com.academy;
+package br.com.franzoso;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

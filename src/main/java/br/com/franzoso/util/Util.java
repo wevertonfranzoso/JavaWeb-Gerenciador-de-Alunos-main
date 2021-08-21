@@ -1,4 +1,4 @@
-package br.com.academy.util;
+package br.com.franzoso.util;
 
 import java.math.BigInteger;
 import java.security.MessageDigest;

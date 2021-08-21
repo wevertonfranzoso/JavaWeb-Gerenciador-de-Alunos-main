@@ -1,11 +1,11 @@
-package br.com.academy.dao;
+package br.com.franzoso.dao;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import br.com.academy.model.Aluno;
+import br.com.franzoso.model.Aluno;
 
 public interface AlunoDao extends JpaRepository<Aluno, Integer> {
 

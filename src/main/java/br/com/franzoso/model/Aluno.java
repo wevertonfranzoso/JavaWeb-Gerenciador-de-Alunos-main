@@ -1,4 +1,4 @@
-package br.com.academy.model;
+package br.com.franzoso.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -12,8 +12,8 @@ import javax.validation.constraints.Size;
 
 import org.hibernate.annotations.GenericGenerator;
 
-import br.com.academy.Enums.Curso;
-import br.com.academy.Enums.Status;
+import br.com.franzoso.Enums.Curso;
+import br.com.franzoso.Enums.Status;
 
 @Entity
 public class Aluno {

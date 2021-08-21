@@ -1,4 +1,4 @@
-package br.com.academy.service;
+package br.com.franzoso.service;
 
 public class ServiceExc extends Exception {
 

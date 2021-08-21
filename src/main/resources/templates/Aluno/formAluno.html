@@ -41,7 +41,7 @@
 					<label>Selecione o curso: </label>
 					 <select class="form-control" style="z-index: -1" th:field="*{curso}">
 						<option
-							th:each="curso : ${T(br.com.academy.Enums.Curso).values()}"
+							th:each="curso : ${T(br.com.franzoso.Enums.Curso).values()}"
 							th:value="${curso}" th:text="${curso}"></option>
 					</select>
 				</div>
@@ -71,7 +71,7 @@
 					<label>Selecione o Status: </label>
 					 <select class="form-control" th:field="*{status}">
 						<option
-							th:each="status : ${T(br.com.academy.Enums.Status).values()}"
+							th:each="status : ${T(br.com.franzoso.Enums.Status).values()}"
 							th:value="${status}" th:text="${status}">
 							</option>
 					</select>

@@ -1,4 +1,4 @@
-package br.com.academy.controllers;
+package br.com.franzoso.controllers;
 
 import java.util.List;
 
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
-import br.com.academy.dao.AlunoDao;
-import br.com.academy.model.Aluno;
+import br.com.franzoso.dao.AlunoDao;
+import br.com.franzoso.model.Aluno;
 
 @Controller
 public class AlunoController {

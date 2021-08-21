@@ -1,4 +1,4 @@
-package br.com.academy.Exceptions;
+package br.com.franzoso.Exceptions;
 
 public class EmailExistsException extends Exception {
 

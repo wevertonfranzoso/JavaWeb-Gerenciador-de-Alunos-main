@@ -1,16 +1,15 @@
-package br.com.academy.service;
+package br.com.franzoso.service;
 
 import java.security.NoSuchAlgorithmException;
 
-import org.hibernate.service.spi.ServiceException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.com.academy.Exceptions.CriptoExistException;
-import br.com.academy.Exceptions.EmailExistsException;
-import br.com.academy.dao.UsuarioDao;
-import br.com.academy.model.Usuario;
-import br.com.academy.util.Util;
+import br.com.franzoso.Exceptions.CriptoExistException;
+import br.com.franzoso.Exceptions.EmailExistsException;
+import br.com.franzoso.dao.UsuarioDao;
+import br.com.franzoso.model.Usuario;
+import br.com.franzoso.util.Util;
 
 @Service
 public class ServiceUsuario {
